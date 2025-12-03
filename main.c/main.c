@@ -22,6 +22,8 @@ int main()
     }
  
     // Menu da calculadora 
+    int Opc;
+    do{
     printf("\tMenu\t\n");
     printf("1:\t Construção de uma matriz 4 por 18.\n");
     printf("2:\t Calculo do logaritmo (base natural) dos elementos do vetor.\n");
@@ -29,7 +31,26 @@ int main()
     printf("4:\t Ordenar vetor por ordem crescente dos seus valores simétricos.\n");
     printf("5:\t Valores do vetor maiores que dois e divisiveis por cinco.\n");
     printf("6:\t Calculo da soma da primeira metade dos elementos do vetor com a segunda metade.\n");
+    printf("0:\t Fechar programa");
+    
+    //escolha da funcionalidade a utilizar
+    printf("Escolha a opção desejada:");
+    scanf("%d", &Opc);
+    
+    //Execução da função
+    if(Opc==1)
 
+    if(Opc==2)
 
+    if(Opc==3)
+
+    if(Opc==4)
+
+    if(Opc==5)
+
+    if(Opc==6)
+    
+
+    }while(Opc != 0);
 }
 
