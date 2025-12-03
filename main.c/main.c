@@ -22,13 +22,13 @@ int main()
     }
  
     // Menu da calculadora 
-    printf("\tMenu\t");
-    printf("1:\t Construção de uma matriz 4 por 18.");
-    printf("2:\t Calculo do logaritmo (base natural) dos elementos do vetor.");
-    printf("3:\t Calculo da mediana dos elementos do vetor");
-    printf("4:\t Ordenar vetor por ordem crescente dos seus valores simétricos.");
-    printf("5:\t Valores do vetor maiores que dois e divisiveis por cinco.");
-    printf("6:\t Calculo da soma da primeira metade dos elementos do vetor com a segunda metade.");
+    printf("\tMenu\t\n");
+    printf("1:\t Construção de uma matriz 4 por 18.\n");
+    printf("2:\t Calculo do logaritmo (base natural) dos elementos do vetor.\n");
+    printf("3:\t Calculo da mediana dos elementos do vetor\n");
+    printf("4:\t Ordenar vetor por ordem crescente dos seus valores simétricos.\n");
+    printf("5:\t Valores do vetor maiores que dois e divisiveis por cinco.\n");
+    printf("6:\t Calculo da soma da primeira metade dos elementos do vetor com a segunda metade.\n");
 
 
 }
