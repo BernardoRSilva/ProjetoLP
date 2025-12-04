@@ -10,7 +10,7 @@ void funcaolog(int VET[], int n)
        Vlog[I] = logaritmo;
     }
    for (int I = 0; I < n; I++){
-    printf("%f\t", Vlog[I]);
+    printf("Logaritmo de base natural de %d: %f\n",VET[I], Vlog[I]);
    }
    
 }

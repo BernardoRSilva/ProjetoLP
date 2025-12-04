@@ -2,6 +2,7 @@
 #include <math.h>
 #define TAM 18
 #include "funcaolog.h"
+#include "somametades.h"
 
 int main()
 {
@@ -45,7 +46,13 @@ int main()
     
     //Execução da função
     if(Opc==2){
-      funcaolog(VET, TAM);  
+      funcaolog(VET, TAM);
+      printf("\n");  
+    }
+
+    if(Opc==6){
+      somametades(VET, TAM);
+      printf("\n");  
     }
     }while(Opc != 0);
 }
