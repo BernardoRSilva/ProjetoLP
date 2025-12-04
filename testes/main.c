@@ -44,12 +44,13 @@ int main()
     scanf("%d", &Opc);
     printf("\n");
     
-    //Execução da função
+    //Execução da função calculo de logaritmos 
     if(Opc==2){
       funcaolog(VET, TAM);
       printf("\n");  
     }
 
+    //Execução da função soma das duas metades do vetor
     if(Opc==6){
       somametades(VET, TAM);
       printf("\n");  
