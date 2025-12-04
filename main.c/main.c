@@ -1,9 +1,11 @@
 #include <stdio.h>
+#include "ordenarsimetricos.h"
+
 #define TAM 18
 
 int main()
 {
-    int N, VET[TAM];
+    int N, VET[TAM], Opc;
 
     // Insirir 18 numeros entre 1 e 11 para a criação de um vetor 
     printf("Insira 18 números inteiros (entre 1 e 11)\n");
@@ -30,6 +32,12 @@ int main()
     printf("5:\t Valores do vetor maiores que dois e divisiveis por cinco.\n");
     printf("6:\t Calculo da soma da primeira metade dos elementos do vetor com a segunda metade.\n");
 
+    printf("Escolha a opção desejada:");
+    scanf("%d", &Opc);
 
+    // Ordenar vetor por ordem crescente dos seus valores simétricos
+    if(Opc = 4){
+       ordenarsimetricos(VET[], TAM); 
+    }
 }
 
