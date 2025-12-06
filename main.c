@@ -39,11 +39,11 @@ int main()
     scanf("%d", &Opc);
 
     // Ordenar vetor por ordem crescente dos seus valores simétricos
-    if(Opc = 4)
+    if(Opc == 4)
     {
        ordenarsimetricos(VET, TAM);
     }
-    if(Opc = 5){
-        MdoisDcinco(VET, TAM);
+    if(Opc == 5){
+            MdoisDcinco(VET, TAM);
     }
 }

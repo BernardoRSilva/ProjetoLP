@@ -45,12 +45,11 @@ int main()
     if(Opc==3)
 
     if(Opc==4)
-
+        ordenarsimetricos(VET, TAM);
     if(Opc==5)
-
+        MdoisDcinco(VET, TAM);
     if(Opc==6)
-    
 
-    }while(Opc != 0);
+}while(Opc != 0);
 }
 

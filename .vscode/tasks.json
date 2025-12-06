@@ -7,7 +7,9 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "*.c",
+                "main-team-x.c/main.c",
+                "MdoisDcinco.c",
+                "ordenarsimetricos.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
