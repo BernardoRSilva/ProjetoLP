@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "ordenarsimetricos.h"
 #include "ordenarsimetricos.c"
+#include "MdoisDcinco.h"
+#include "MdoisDcinco.c"
 
 #define TAM 18
 
@@ -41,5 +43,7 @@ int main()
     {
        ordenarsimetricos(VET, TAM);
     }
+    if(Opc = 5){
+        MdoisDcinco(VET, TAM);
+    }
 }
-
