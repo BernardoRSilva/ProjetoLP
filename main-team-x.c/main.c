@@ -50,6 +50,6 @@ int main()
         MdoisDcinco(VET, TAM);
     if(Opc==6)
 
-}while(Opc != 0);
+ }while(Opc != 0);
 }
 
