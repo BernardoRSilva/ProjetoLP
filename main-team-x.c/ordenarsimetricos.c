@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "ordenarsimetricos.h"
+#include "funcoes.h"
 
 void ordenarsimetricos (int VET[], int n)
 { 

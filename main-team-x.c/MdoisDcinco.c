@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "MdoisDcinco.h"
+#include "funcoes.h"
 
 void MdoisDcinco (int VET[], int n){
     int algumvalor = 0;

@@ -1,10 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #define TAM 18
-#include "funcaolog.h"
-#include "somametades.h"
-#include "ordenarsimetricos.h"
-#include "MdoisDcinco.h"
+#include "funcoes.h"
 
 int main()
 {
@@ -29,7 +26,7 @@ int main()
     // Menu da calculadora 
     int Opc;
     do{
-    printf("\tMenu\t\n");
+    printf("\t============Menu============\t\n");
     printf("\n");
     printf("1:\t Construção de uma matriz 4 por 18.\n");
     printf("2:\t Calculo do logaritmo (base natural) dos elementos do vetor.\n");
@@ -37,6 +34,9 @@ int main()
     printf("4:\t Ordenar vetor por ordem crescente dos seus valores simétricos.\n");
     printf("5:\t Valores do vetor maiores que dois e divisiveis por cinco.\n");
     printf("6:\t Calculo da soma da primeira metade dos elementos do vetor com a segunda metade.\n");
+    printf("7:\t Página de ajuda");
+    printf("8:\t Leitura de um novo vetor, e devolução de\n"
+            "um vetor que mistura metade do principal com metade do novo vetor\n");
     printf("\n");
     printf("0:\t Fechar programa");
     printf("\n");
@@ -46,12 +46,24 @@ int main()
     scanf("%d", &Opc);
     printf("\n");
     
+    //Devolução de uma matriz 4 por 18, constituida pelo vetor 
+    if(Opc==1){
+      matriz4por18(VET, TAM);
+      printf("\n");  
+    }
+    
     //Execução da função calculo de logaritmos 
     if(Opc==2){
       funcaolog(VET, TAM);
       printf("\n");  
     }
    
+    //Calculo da mediana dos elementos do vetor 
+    if(Opc==3){
+      mediana(VET, TAM);
+      printf("\n");  
+    }
+    
     // Ordenar vetor por ordem crescente dos seus valores simétricos
     if(Opc == 4){
        ordenarsimetricos(VET, TAM);
@@ -65,6 +77,16 @@ int main()
     //Execução da função soma das duas metades do vetor
     if(Opc==6){
       somametades(VET, TAM);
+      printf("\n");  
+    }
+
+    if(Opc==7){
+      ajuda(TAM);
+      printf("\n");
+    }
+    
+    if(Opc==8){
+      novomistura(VET, TAM);
       printf("\n");  
     }
     }while(Opc != 0);
