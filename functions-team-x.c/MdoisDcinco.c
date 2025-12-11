@@ -1,5 +1,9 @@
+/**
+ * @file MdoisDcinco.c
+ * @author Afonso Guerra
+ */
 #include <stdio.h>
-#include "MdoisDcinco.h"
+#include "funcoes.h"
 
 void MdoisDcinco (int VET[], int n){
     int algumvalor = 0;
