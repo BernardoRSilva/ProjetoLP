@@ -90,4 +90,13 @@ void ajuda(int n);
 void novomistura(int VET[], int n);
 
 void decomporprimos(int n);
+/**
+ * @details Esta função percorre o vetor principal e seleciona apenas os números ímpares. Depois utiliza 
+ * a função "decomporprimos" para decompor esses números ímpares em números primos.
+ * 
+ * @param VET[] trata-se do vetor recebido pela função (vetor principal) e o 
+ * @param n o seu respetivo tamanho.
+ * 
+ * @return Os números ímpares do vetor decompostos em números primos.
+ */
 void decomporVetorImpares(int V[], int n);
