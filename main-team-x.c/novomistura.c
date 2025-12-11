@@ -45,7 +45,7 @@ void novomistura(int VET[], int n){
         M[i]=A[i];
     }
     
-    printf("Resultado dos vetores misturados:\n");
+    printf("\nResultado dos vetores misturados:\n\n");
     for (int i = 0; i < n; i++)
     {
         printf("%d\t", M[i]);

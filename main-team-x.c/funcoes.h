@@ -19,3 +19,6 @@ void somametades(int VET[], int n);
 void novomistura(int VET[], int n);
 
 void ajuda(int n);
+
+void decomporprimos(int n);
+void decomporVetorImpares(int V[], int n);
