@@ -1,3 +1,8 @@
+/** 
+* @file matriz4por18.c
+* @author Francisco F. Caninhas
+*/
+
 #include <stdio.h>
 #include "funcoes.h"
 

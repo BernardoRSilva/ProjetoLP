@@ -1,9 +1,13 @@
 /**
  * @file funcoes.h
- * @author Todos
+ * @authors
+ *  - Bernardo Silva
+ *  - Afonso Guerra
+ *  - Francisco Caninhas
  * @brief Este ficheiro contém todas as declarações de funções utilizadas no projeto.
  * 
  */
+
 /* 1º função */
 /** 
 * @brief Esta função constrói uma matriz do tipo quatro por dezoito, em que cada linha é composta pelo vetor lido.
@@ -41,14 +45,13 @@ void funcaolog(int VET[], int n);
 * @details Esta função recebe um vetor de números e determina a sua mediana. Para isso, os elementos são
 * primeiro organizados por ordem crescente. Se o número de elementos for ímpar, a mediana corresponde ao
 * valor que ocupa a posição central do vetor ordenado. Se for par, a mediana é calculada como a média
-* aritmética dos dois valores centrais. 
-
+* aritmética dos dois valores centrais.
+* 
 * @param VET[] Trata-se do vetor recebido pela função (vetor principal) e o 
 * @param n o seu respetivo tamanho.
-
+*
 * @return Devolve o valor da mediana.
 */
-
 void mediana(int VET[], int n);
 
 /* 4º função */

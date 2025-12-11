@@ -6,19 +6,6 @@
 #include <stdio.h>
 #include "funcoes.h"
 
-/**
- * @brief Esta função pede que seja introduzidos 18 novos valores para um novo vetor, e de seguida mistura metade do vetor principal com metade desse novo vetor.
- * @details Esta função recebe os valores do vetor principal com 18 números dados
- * pelo utilizador e seguidamente pede que sejam introduzidos 18 novos valores seguindo os principios do vetor principal (entre 1 e 11), criando assim um novo vetor.
- * Com os dois vetores procede à mistura de metade do vetor principal com metade do novo vetor introduzido.
- * De seguida imprime esse novo vetor na tela do usuario.
- * 
- * @param VET[] trata-se do vetor recebido pela função (vetor principal) e o 
- * @param n o seu respetivo tamanho.
- * 
- * @return Um vetor resultado da soma das duas metades, com metade do tamanho do principal respetivamente. 
- */
-
 void novomistura(int VET[], int n){
     int A[n], M[n], N;
 

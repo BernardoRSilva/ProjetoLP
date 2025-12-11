@@ -2,6 +2,7 @@
  * @file ajuda.c
  * @author Bernardo Silva
  */
+
 #include <stdio.h>
 #include "funcoes.h"
 

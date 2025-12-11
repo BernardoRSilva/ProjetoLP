@@ -10,6 +10,7 @@
  *  - Afonso Guerra
  *  - Francisco Caninhas
  */
+
 #include <stdio.h>
 #include <math.h>
 #define TAM 18 /**< A variável TAM corresponde ao tamanho do vetor */
