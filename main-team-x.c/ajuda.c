@@ -1,12 +1,7 @@
 /**
+ * @file ajuda.c
  * @author Bernardo Silva
- * 
- * @brief Esta paginá contém as regras de utilização do programa e também instruções para o
- * utilizar de forma correta. 
- * Explica o funcionamento do programa, as regras de colocação de valores para os vetores pedidos
- * e também como aceder e executar de forma correta as funções que o mesmo disponibiliza.
  */
-
 #include <stdio.h>
 #include "funcoes.h"
 

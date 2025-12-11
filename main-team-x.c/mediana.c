@@ -1,3 +1,8 @@
+/** 
+* @file mediana.c
+* @author Francisco F. Caninhas
+*/
+
 #include <stdio.h>
 #include "funcoes.h"
 
