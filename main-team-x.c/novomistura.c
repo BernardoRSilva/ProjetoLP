@@ -50,5 +50,5 @@ void novomistura(int VET[], int n){
     {
         printf("%d\t", M[i]);
     }
-    
+    printf("\n");
 }
