@@ -26,20 +26,19 @@ int main()
     // Menu da calculadora 
     int Opc;
     do{
-    printf("\t============Menu============\t\n");
+    
+    printf("\n\t============Menu============\t\n");
     printf("\n");
-    printf("1:\t Construção de uma matriz 4 por 18.\n");
-    printf("2:\t Calculo do logaritmo (base natural) dos elementos do vetor.\n");
-    printf("3:\t Calculo da mediana dos elementos do vetor\n");
-    printf("4:\t Ordenar vetor por ordem crescente dos seus valores simétricos.\n");
-    printf("5:\t Valores do vetor maiores que dois e divisiveis por cinco.\n");
-    printf("6:\t Calculo da soma da primeira metade dos elementos do vetor com a segunda metade.\n");
-    printf("7:\t Página de ajuda");
-    printf("8:\t Leitura de um novo vetor, e devolução de\n"
-            "um vetor que mistura metade do principal com metade do novo vetor\n");
-    printf("\n");
-    printf("0:\t Fechar programa");
-    printf("\n");
+    printf("1:\t Construção de uma matriz 4 por 18.\n\n");
+    printf("2:\t Calculo do logaritmo (base natural) dos elementos do vetor principal.\n\n");
+    printf("3:\t Calculo da mediana dos elementos do vetor principal\n\n");
+    printf("4:\t Ordenar vetor principal por ordem crescente dos seus valores simétricos.\n\n");
+    printf("5:\t Valores do vetor maiores que dois e divisiveis por cinco.\n\n");
+    printf("6:\t Calculo da soma da primeira metade dos elementos do vetor principal com a segunda metade.\n\n");
+    printf("7:\t Página de ajuda\n\n");
+    printf("8:\t Leitura de um novo vetor, e devolução de um vetor que mistura metade do principal com metade do novo vetor\n\n");
+    printf("9:\t Decomposição dos elementos impares do vetor principal em números primos\n\n");
+    printf("0:\t Fechar programa\n\n");
     
     //escolha da funcionalidade a utilizar
     printf("Escolha a opção desejada:");
@@ -87,6 +86,11 @@ int main()
     
     if(Opc==8){
       novomistura(VET, TAM);
+      printf("\n");  
+    }
+
+    if(Opc==9){
+      decomporVetorImpares(VET, TAM);
       printf("\n");  
     }
     }while(Opc != 0);

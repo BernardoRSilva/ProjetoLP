@@ -8,6 +8,7 @@
 
 void ordenarsimetricos (int VET[], int n)
 { 
+    printf("\n");
     int i, k, temporaria;
     // o primeiro comando for define o numero de vezes que o segundo for atua
     for (i = 0; i < n - 1; i++) {
@@ -28,5 +29,5 @@ void ordenarsimetricos (int VET[], int n)
     for (i = 0; i < n; i++) {
         printf("%d%s", VET[i], (i < n - 1) ? ", " : "");
     }
-    printf("]\n");
+    printf("]\n\n");
 }

@@ -88,3 +88,6 @@ void ajuda(int n);
  * 
  */
 void novomistura(int VET[], int n);
+
+void decomporprimos(int n);
+void decomporVetorImpares(int V[], int n);
