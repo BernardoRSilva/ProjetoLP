@@ -1,6 +1,11 @@
+/**
+ * @file funcaolog.c
+ * @author Bernardo R. Silva
+ */
+
 #include <stdio.h>
 #include <math.h>
-#include "funcaolog.h"
+#include "funcoes.h"
 
 void funcaolog(int VET[], int n)
 {

@@ -1,10 +1,14 @@
+/**
+ * @file ordenarsimetricos.c
+ * @author Afonso Guerra
+ */
+
 #include <stdio.h>
 #include "funcoes.h"
 
 void ordenarsimetricos (int VET[], int n)
 { 
     int i, k, temporaria;
-
     // o primeiro comando for define o numero de vezes que o segundo for atua
     for (i = 0; i < n - 1; i++) {
         // Compara valores adjacentes  
