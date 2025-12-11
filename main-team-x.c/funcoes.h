@@ -136,16 +136,13 @@ void novomistura(int VET[], int n);
  * @return número inteiro positivo decomposto em fatores primos.
  */
 void decomporprimos(int n);
-
-/* 10º função */
 /**
- * @brief
+ * @details Esta função percorre o vetor principal e seleciona apenas os números ímpares. Depois utiliza 
+ * a função "decomporprimos" para decompor esses números ímpares em números primos.
  * 
- * @details
- *  
- * @param
- * @param 
+ * @param VET[] trata-se do vetor recebido pela função (vetor principal) e o 
+ * @param n o seu respetivo tamanho.
  * 
- * @return 
+ * @return Os números ímpares do vetor decompostos em números primos.
  */
 void decomporVetorImpares(int V[], int n);

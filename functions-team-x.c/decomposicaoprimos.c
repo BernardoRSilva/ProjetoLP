@@ -1,7 +1,3 @@
-/**
- * @file decompor.c
- * @author Bernardo R. Silva
- */
 #include <stdio.h>
 #include "funcoes.h"
 // ---------------------------------------
@@ -31,7 +27,10 @@ void decomporprimos(int n)
     printf("\n");
 }
 
-
+// ---------------------------------------
+// Subprograma que percorre o vetor
+// e decompõe apenas os elementos ímpares
+// ---------------------------------------
 void decomporVetorImpares(int V[], int n)
 {
     printf("\n\t ============Decomposição dos elementos ímpares============\n\n");
