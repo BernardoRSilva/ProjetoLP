@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <math.h>
 #define TAM 18 /**< A variável TAM corresponde ao tamanho do vetor */
-#include "funcoes.h"
+#include "functions-team-x.h"
 
 /**
  * @brief Função principal do programa.
