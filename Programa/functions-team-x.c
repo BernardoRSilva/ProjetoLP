@@ -1,7 +1,13 @@
-/** 
-* @file matriz4por18.c
-* @author Francisco F. Caninhas
-*/
+/**
+ * @file functions-team-x.c
+ * @brief Ficheiro que contem a implementação de todas as funções do projeto.
+ *
+ * @authors
+ * - Bernardo Silva
+ * - Afonso Guerra
+ * - Francisco Caninhas
+ */
+
 
 #include <stdio.h>
 #include "functions-team-x.h"
@@ -30,10 +36,6 @@ void matriz4por18(int VET[], int n) {
 }
 
 
-/**
- * @file funcaolog.c
- * @author Bernardo R. Silva
- */
 
 #include <stdio.h>
 #include <math.h>
@@ -54,10 +56,7 @@ void funcaolog(int VET[], int n)
 }
 
 
-/** 
-* @file mediana.c
-* @author Francisco F. Caninhas
-*/
+
 
 #include <stdio.h>
 #include "functions-team-x.h"
@@ -87,10 +86,7 @@ void mediana(int VET[], int n)
 }
 
 
-/**
- * @file ordenarsimetricos.c
- * @author Afonso Guerra
- */
+
 
 #include <stdio.h>
 #include "functions-team-x.h"
@@ -123,10 +119,7 @@ void ordenarsimetricos (int VET[], int n)
 }
 
 
-/**
- * @file MdoisDcinco.c
- * @author Afonso Guerra
- */
+
 
 #include <stdio.h>
 #include "functions-team-x.h"
@@ -148,10 +141,7 @@ void MdoisDcinco (int VET[], int n){
 }
 
 
-/**
- * @file somametades.c
- * @author Bernardo R. Silva
- */
+
 
 #include <stdio.h>
 #include "functions-team-x.h"
@@ -173,10 +163,6 @@ void somametades(int VET[], int n)
 }
 
 
-/**
- * @file ajuda.c
- * @author Bernardo Silva
- */
 
 #include <stdio.h>
 #include "functions-team-x.h"
@@ -238,10 +224,7 @@ void ajuda(int n){
 }
 
 
-/**
- * @file novomistura.c
- * @author Bernardo R. Silva
- */
+
 
 #include <stdio.h>
 #include "functions-team-x.h"
@@ -282,10 +265,6 @@ void novomistura(int VET[], int n){
 }
 
 
-/**
- * @file decompor.c
- * @author Bernardo R. Silva
- */
 
 #include <stdio.h>
 #include "functions-team-x.h"

@@ -1,0 +1,245 @@
+\doxysection{Referência ao ficheiro functions-\/team-\/x.h}
+\hypertarget{functions-team-x_8h}{}\label{functions-team-x_8h}\index{functions-\/team-\/x.h@{functions-\/team-\/x.h}}
+Este grafo mostra quais são os ficheiros que incluem directamente ou indirectamente este ficheiro\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=296pt]{functions-team-x_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{functions-team-x_8h_accfbc9488bd94bcc83bca519246b9218}{matriz4por18}} (int VET\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em Esta função constrói uma matriz do tipo quatro por dezoito, em que cada linha é composta pelo vetor lido. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{functions-team-x_8h_a83bd51b8eaa11070bcaa53a1b4512d4b}{funcaolog}} (int VET\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em Esta função calcula o logaritmo de base natural dos elementos do vetor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{functions-team-x_8h_a7727241be4ebbdeab4645b5a48a2c5b0}{mediana}} (int VET\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em Calculo da mediana dos elementos no vetor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{functions-team-x_8h_a231ecd5239a28be99f55b277d1a87ba9}{ordenarsimetricos}} (int VET\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em Esta função recebe o vetor com 18 valores dados pelo utilizador e ordena-\/os por ordem crescente dos seus valores simétricos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{functions-team-x_8h_a2f87183a209e839b01dfd93d72571030}{Mdois\+Dcinco}} (int VET\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em Esta função devolve os valores que são maiores que dois e divisíveis por cinco. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{functions-team-x_8h_a208c78ecb1a4af1d7b03ef6708922419}{somametades}} (int VET\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em Esta função soma a primeira metade do vetor com a sua segunda criando um vetor com metade do tamanho. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{functions-team-x_8h_abac563eb36d460eb5f154bad1a3d5dae}{ajuda}} (int n)
+\begin{DoxyCompactList}\small\item\em Esta paginá contém as regras de utilização do programa e também instruções para o utilizar de forma correta. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{functions-team-x_8h_a6c61fb9ebb5d421733e5ecf3868e0661}{novomistura}} (int VET\mbox{[}$\,$\mbox{]}, int n)
+\begin{DoxyCompactList}\small\item\em Esta função pede que seja introduzidos 18 novos valores para um novo vetor, e de seguida mistura metade do vetor principal com metade desse novo vetor. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{functions-team-x_8h_a53169018ee03833e4a7744484f529a02}{decomporprimos}} (int n)
+\begin{DoxyCompactList}\small\item\em Esta função decompõe um número inteiro positivo nos seus fatores primos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{functions-team-x_8h_ad8f89ea9a2a8e8913a5a7b3d4ba04ca1}{decompor\+Vetor\+Impares}} (int V\mbox{[}$\,$\mbox{]}, int n)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{functions-team-x_8h_abac563eb36d460eb5f154bad1a3d5dae}\label{functions-team-x_8h_abac563eb36d460eb5f154bad1a3d5dae} 
+\index{functions-\/team-\/x.h@{functions-\/team-\/x.h}!ajuda@{ajuda}}
+\index{ajuda@{ajuda}!functions-\/team-\/x.h@{functions-\/team-\/x.h}}
+\doxysubsubsection{\texorpdfstring{ajuda()}{ajuda()}}
+{\footnotesize\ttfamily void ajuda (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Esta paginá contém as regras de utilização do programa e também instruções para o utilizar de forma correta. 
+
+Explica o funcionamento do programa, as regras de colocação de valores para os vetores pedidos e também como aceder e executar de forma correta as funções que o mesmo disponibiliza.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em n} & é o tamanho do vetor. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{functions-team-x_8h_a53169018ee03833e4a7744484f529a02}\label{functions-team-x_8h_a53169018ee03833e4a7744484f529a02} 
+\index{functions-\/team-\/x.h@{functions-\/team-\/x.h}!decomporprimos@{decomporprimos}}
+\index{decomporprimos@{decomporprimos}!functions-\/team-\/x.h@{functions-\/team-\/x.h}}
+\doxysubsubsection{\texorpdfstring{decomporprimos()}{decomporprimos()}}
+{\footnotesize\ttfamily void decomporprimos (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Esta função decompõe um número inteiro positivo nos seus fatores primos. 
+
+Esta função ignora o fator primo 2. Ela começa a testar a divisibilidade por 3. Portanto, só funcionará corretamente para números ímpares ou números pares que são também múltiplos de 3 ou de primos ímpares maiores. O caso especial para n=1 é tratado.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em n} & O número inteiro positivo em análise.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+número inteiro positivo decomposto em fatores primos. 
+\end{DoxyReturn}
+\Hypertarget{functions-team-x_8h_ad8f89ea9a2a8e8913a5a7b3d4ba04ca1}\label{functions-team-x_8h_ad8f89ea9a2a8e8913a5a7b3d4ba04ca1} 
+\index{functions-\/team-\/x.h@{functions-\/team-\/x.h}!decomporVetorImpares@{decomporVetorImpares}}
+\index{decomporVetorImpares@{decomporVetorImpares}!functions-\/team-\/x.h@{functions-\/team-\/x.h}}
+\doxysubsubsection{\texorpdfstring{decomporVetorImpares()}{decomporVetorImpares()}}
+{\footnotesize\ttfamily void decompor\+Vetor\+Impares (\begin{DoxyParamCaption}\item[{int}]{V\mbox{[}$\,$\mbox{]},  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+Esta função percorre o vetor principal e seleciona apenas os números ímpares. Depois utiliza a função "{}decomporprimos"{} para decompor esses números ímpares em números primos.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em VET\mbox{[}$\,$\mbox{]}} & trata-\/se do vetor recebido pela função (vetor principal) e o \\
+\hline
+{\em n} & o seu respetivo tamanho.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Os números ímpares do vetor decompostos em números primos. 
+\end{DoxyReturn}
+\Hypertarget{functions-team-x_8h_a83bd51b8eaa11070bcaa53a1b4512d4b}\label{functions-team-x_8h_a83bd51b8eaa11070bcaa53a1b4512d4b} 
+\index{functions-\/team-\/x.h@{functions-\/team-\/x.h}!funcaolog@{funcaolog}}
+\index{funcaolog@{funcaolog}!functions-\/team-\/x.h@{functions-\/team-\/x.h}}
+\doxysubsubsection{\texorpdfstring{funcaolog()}{funcaolog()}}
+{\footnotesize\ttfamily void funcaolog (\begin{DoxyParamCaption}\item[{int}]{VET\mbox{[}$\,$\mbox{]},  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Esta função calcula o logaritmo de base natural dos elementos do vetor. 
+
+Esta função recebe os valores do vetor principal com 18 números dados pelo utilizador percorrendo os mesmos e, recorrendo ao uso da biblioteca "{}math.\+h"{}, calcula o logaritmo de base natural de cada um dos elementos do vetor. De seguida esses mesmo valores na tela do usuario.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em VET\mbox{[}$\,$\mbox{]}} & trata-\/se do vetor recebido pela função (vetor principal) e o \\
+\hline
+{\em n} & o seu respetivo tamanho.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+O valor do logaritmo base de cada elemento do vetor. 
+\end{DoxyReturn}
+\Hypertarget{functions-team-x_8h_accfbc9488bd94bcc83bca519246b9218}\label{functions-team-x_8h_accfbc9488bd94bcc83bca519246b9218} 
+\index{functions-\/team-\/x.h@{functions-\/team-\/x.h}!matriz4por18@{matriz4por18}}
+\index{matriz4por18@{matriz4por18}!functions-\/team-\/x.h@{functions-\/team-\/x.h}}
+\doxysubsubsection{\texorpdfstring{matriz4por18()}{matriz4por18()}}
+{\footnotesize\ttfamily void matriz4por18 (\begin{DoxyParamCaption}\item[{int}]{VET\mbox{[}$\,$\mbox{]},  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Esta função constrói uma matriz do tipo quatro por dezoito, em que cada linha é composta pelo vetor lido. 
+
+A função solicita ao utilizador do tipo quatro por dezoito, a introdução de um único vetor de dezoito inteiros, que será armazenado na primeira linha da matriz. As três linhas restantes não são lidas, em vez disso, são preenchidas automaticamente com cópias exatas do primeiro vetor. No final, a matriz resultante contém quatro linhas idênticas.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em VET\mbox{[}$\,$\mbox{]}} & Trata-\/se do vetor recebido pela função (vetor principal) e o \\
+\hline
+{\em n} & o seu respetivo tamanho.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Devolve a matriz já elaborada com os números inteiros posterirmente introduzidos. 
+\end{DoxyReturn}
+\Hypertarget{functions-team-x_8h_a2f87183a209e839b01dfd93d72571030}\label{functions-team-x_8h_a2f87183a209e839b01dfd93d72571030} 
+\index{functions-\/team-\/x.h@{functions-\/team-\/x.h}!MdoisDcinco@{MdoisDcinco}}
+\index{MdoisDcinco@{MdoisDcinco}!functions-\/team-\/x.h@{functions-\/team-\/x.h}}
+\doxysubsubsection{\texorpdfstring{MdoisDcinco()}{MdoisDcinco()}}
+{\footnotesize\ttfamily void Mdois\+Dcinco (\begin{DoxyParamCaption}\item[{int}]{VET\mbox{[}$\,$\mbox{]},  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Esta função devolve os valores que são maiores que dois e divisíveis por cinco. 
+
+Esta função recebe o vetor com 18 valores dados pelo utilizador e verifica quais deles são maiores que dois e divisíveis por cinco. De seguida, apresenta esses valores ao utilizador, caso não haja nenhum valor aparece uma mensagem para demonstrar essa situação, "{}\+Nenhum valor encontrado"{}.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em VET\mbox{[}$\,$\mbox{]}} & trata-\/se do vetor recebido pela função (vetor principal) e o \\
+\hline
+{\em n} & o seu respetivo tamanho.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+os elementos do vetor que são maiores que dois e divisíveis por cinco, caso existam. 
+\end{DoxyReturn}
+\Hypertarget{functions-team-x_8h_a7727241be4ebbdeab4645b5a48a2c5b0}\label{functions-team-x_8h_a7727241be4ebbdeab4645b5a48a2c5b0} 
+\index{functions-\/team-\/x.h@{functions-\/team-\/x.h}!mediana@{mediana}}
+\index{mediana@{mediana}!functions-\/team-\/x.h@{functions-\/team-\/x.h}}
+\doxysubsubsection{\texorpdfstring{mediana()}{mediana()}}
+{\footnotesize\ttfamily void mediana (\begin{DoxyParamCaption}\item[{int}]{VET\mbox{[}$\,$\mbox{]},  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Calculo da mediana dos elementos no vetor. 
+
+Esta função recebe um vetor de números e determina a sua mediana. Para isso, os elementos são primeiro organizados por ordem crescente. Se o número de elementos for ímpar, a mediana corresponde ao valor que ocupa a posição central do vetor ordenado. Se for par, a mediana é calculada como a média aritmética dos dois valores centrais.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em VET\mbox{[}$\,$\mbox{]}} & Trata-\/se do vetor recebido pela função (vetor principal) e o \\
+\hline
+{\em n} & o seu respetivo tamanho.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Devolve o valor da mediana. 
+\end{DoxyReturn}
+\Hypertarget{functions-team-x_8h_a6c61fb9ebb5d421733e5ecf3868e0661}\label{functions-team-x_8h_a6c61fb9ebb5d421733e5ecf3868e0661} 
+\index{functions-\/team-\/x.h@{functions-\/team-\/x.h}!novomistura@{novomistura}}
+\index{novomistura@{novomistura}!functions-\/team-\/x.h@{functions-\/team-\/x.h}}
+\doxysubsubsection{\texorpdfstring{novomistura()}{novomistura()}}
+{\footnotesize\ttfamily void novomistura (\begin{DoxyParamCaption}\item[{int}]{VET\mbox{[}$\,$\mbox{]},  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Esta função pede que seja introduzidos 18 novos valores para um novo vetor, e de seguida mistura metade do vetor principal com metade desse novo vetor. 
+
+Esta função recebe os valores do vetor principal com 18 números dados pelo utilizador e seguidamente pede que sejam introduzidos 18 novos valores seguindo os principios do vetor principal (entre 1 e 11), criando assim um novo vetor. Com os dois vetores procede à mistura de metade do vetor principal com metade do novo vetor introduzido. De seguida imprime esse novo vetor na tela do usuario.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em VET\mbox{[}$\,$\mbox{]}} & trata-\/se do vetor recebido pela função (vetor principal) e o \\
+\hline
+{\em n} & o seu respetivo tamanho.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Um vetor resultado da soma das duas metades, com metade do tamanho do principal respetivamente. 
+\end{DoxyReturn}
+\Hypertarget{functions-team-x_8h_a231ecd5239a28be99f55b277d1a87ba9}\label{functions-team-x_8h_a231ecd5239a28be99f55b277d1a87ba9} 
+\index{functions-\/team-\/x.h@{functions-\/team-\/x.h}!ordenarsimetricos@{ordenarsimetricos}}
+\index{ordenarsimetricos@{ordenarsimetricos}!functions-\/team-\/x.h@{functions-\/team-\/x.h}}
+\doxysubsubsection{\texorpdfstring{ordenarsimetricos()}{ordenarsimetricos()}}
+{\footnotesize\ttfamily void ordenarsimetricos (\begin{DoxyParamCaption}\item[{int}]{VET\mbox{[}$\,$\mbox{]},  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Esta função recebe o vetor com 18 valores dados pelo utilizador e ordena-\/os por ordem crescente dos seus valores simétricos. 
+
+Esta função compara valores adjacentes, trocando-\/os de lugar caso o VET\mbox{[}k\mbox{]} \texorpdfstring{$<$}{<} VET\mbox{[}k+1\mbox{]}. Assim, percorre todos os valores do vetor até que o último valor seja o maior, na sua forma simétrica. De seguida, volta a repetir o processo mas desta vez vai até ao penúltimo elemento do vetor, pois o último já está no seu devido lugar. O programa acaba quando deixa todos os valores na ordenação correta, quando k \texorpdfstring{$<$}{<} n -\/ 1 -\/ i. E, no fim, a função imprime o vetor ordenado, ordem crescente dos seus valores simétricos.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em VET\mbox{[}$\,$\mbox{]}} & trata-\/se do vetor recebido pela função (vetor principal) e \\
+\hline
+{\em n} & o seu respetivo tamanho.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+o vetor ordenado de forma crescente dos seus valores simétricos. 
+\end{DoxyReturn}
+\Hypertarget{functions-team-x_8h_a208c78ecb1a4af1d7b03ef6708922419}\label{functions-team-x_8h_a208c78ecb1a4af1d7b03ef6708922419} 
+\index{functions-\/team-\/x.h@{functions-\/team-\/x.h}!somametades@{somametades}}
+\index{somametades@{somametades}!functions-\/team-\/x.h@{functions-\/team-\/x.h}}
+\doxysubsubsection{\texorpdfstring{somametades()}{somametades()}}
+{\footnotesize\ttfamily void somametades (\begin{DoxyParamCaption}\item[{int}]{VET\mbox{[}$\,$\mbox{]},  }\item[{int}]{n }\end{DoxyParamCaption})}
+
+
+
+Esta função soma a primeira metade do vetor com a sua segunda criando um vetor com metade do tamanho. 
+
+Esta função recebe os valores do vetor principal com 18 números dados pelo utilizador percorrendo os mesmos e soma cada elemento da primeira metade do vetor com o elemento correspondente da segunda metade, obtendo assim um vetor com metade do tamanho. De seguida imprime esse mesmo vetor na tela do usuario.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em VET\mbox{[}$\,$\mbox{]}} & trata-\/se do vetor recebido pela função (vetor principal) e o \\
+\hline
+{\em n} & o seu respetivo tamanho.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Um vetor resultado da soma das duas metades, com metade do tamanho do principal respetivamente. 
+\end{DoxyReturn}

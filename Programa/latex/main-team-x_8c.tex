@@ -1,0 +1,73 @@
+\doxysection{Referência ao ficheiro main-\/team-\/x.c}
+\hypertarget{main-team-x_8c}{}\label{main-team-x_8c}\index{main-\/team-\/x.c@{main-\/team-\/x.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include "{}functions-\/team-\/x.\+h"{}}\newline
+Diagrama de dependências de inclusão para main-\/team-\/x.c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{main-team-x_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{main-team-x_8c_ae0b4816fb45161ef9da5e6d6134ee28a}{TAM}}~18
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main-team-x_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\begin{DoxyCompactList}\small\item\em Função principal do programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Documentação das macros}
+\Hypertarget{main-team-x_8c_ae0b4816fb45161ef9da5e6d6134ee28a}\label{main-team-x_8c_ae0b4816fb45161ef9da5e6d6134ee28a} 
+\index{main-\/team-\/x.c@{main-\/team-\/x.c}!TAM@{TAM}}
+\index{TAM@{TAM}!main-\/team-\/x.c@{main-\/team-\/x.c}}
+\doxysubsubsection{\texorpdfstring{TAM}{TAM}}
+{\footnotesize\ttfamily \#define TAM~18}
+
+A variável TAM corresponde ao tamanho do vetor 
+
+\doxysubsection{Documentação das funções}
+\Hypertarget{main-team-x_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}\label{main-team-x_8c_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+\index{main-\/team-\/x.c@{main-\/team-\/x.c}!main@{main}}
+\index{main@{main}!main-\/team-\/x.c@{main-\/team-\/x.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Função principal do programa. 
+
+Esta função\+:
+\begin{DoxyItemize}
+\item Lê do utilizador 18 valores inteiros entre 1 e 11 e preenche o vetor VET.
+\item Apresenta um menu de opções ao utilizador.
+\item Executa a função correspondente à opção escolhida
+\end{DoxyItemize}
+
+As operações disponíveis são\+:
+\begin{DoxyItemize}
+\item Construção de uma matriz 4x18 baseada no vetor principal.
+\item Cálculo do logaritmo natural dos elementos do vetor principal
+\item Cálculo da mediana do vetor principal.
+\item Ordenação do vetor principal por ordem crescente dos valores simétricos.
+\item Listagem dos valores do vetor principal maiores que 2 e divisíveis por 5.
+\item Soma da primeira metade com a segunda metade do vetor principal.
+\item Página de ajuda.
+\item Leitura de um novo vetor e mistura com metade do vetor principal.
+\item Decomposição dos elementos ímpares do vetor principal em números primos.
+\end{DoxyItemize}
+
+\begin{DoxyReturn}{Retorna}
+Retorna 0 quando o utilizador escolhe a opção 0 (fechar programa). 
+\end{DoxyReturn}
+Leitura dos 18 valores do vetor principal.
+
+Garante que cada valor está no intervalo (1, 11). Em caso de valor inválido, é pedido um novo valor para a mesma posição.
+
+\texorpdfstring{$<$}{<} Guarda os valores nas respetivas posições do vetor
